@@ -7,7 +7,7 @@ let config = {
     pixelArt: true,
     parent: 'content',
     width: 1280,
-	height: 720,
+		height: 720,
     scaleMode: 0,
     physics: {
         default: 'arcade',
