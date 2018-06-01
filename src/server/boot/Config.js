@@ -4,6 +4,12 @@
  * @license   {@link https://github.com/layygdendev/phaser-3-multiplayer-simple/blob/master/license.txt|MIT License}
  */
 
-import Boot from './Boot'
+class Config {
+	constructor(config) {
+		if (config === undefined) { config = {}; }
 
-let b = new Boot();
+		
+	}
+}
+
+export default Config;
